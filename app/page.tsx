@@ -246,6 +246,54 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Newsletter */}
+        <section
+          id="newsletter"
+          className="rounded-3xl border border-slate-800 bg-slate-900/70 px-6 py-8 md:px-10 md:py-10"
+        >
+          <div className="grid gap-8 md:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] items-center">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-semibold">
+                Get simple automation tips in your inbox
+              </h2>
+              <p className="mt-3 text-sm md:text-base text-slate-300 max-w-xl">
+                Short, practical ideas on how small businesses can save time
+                with websites, AI and workflows. No spam—just useful examples.
+              </p>
+              <ul className="mt-4 space-y-1.5 text-sm text-slate-300">
+                <li>• 1–2 emails per month</li>
+                <li>• Real automations you can copy</li>
+                <li>• Built specifically for small businesses</li>
+              </ul>
+            </div>
+
+            <form className="space-y-3 md:space-y-4">
+              <div className="space-y-3">
+                <input
+                  type="email"
+                  placeholder="Your best email"
+                  className="w-full rounded-lg border border-slate-700 bg-slate-950/60 px-3 py-2.5 text-sm text-slate-50 placeholder:text-slate-500 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+                />
+                <input
+                  type="text"
+                  placeholder="Your business / industry (optional)"
+                  className="w-full rounded-lg border border-slate-700 bg-slate-950/60 px-3 py-2.5 text-sm text-slate-50 placeholder:text-slate-500 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+                />
+              </div>
+              <button
+                type="submit"
+                className="inline-flex w-full items-center justify-center rounded-full bg-emerald-500 px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-lg shadow-emerald-500/30 hover:bg-emerald-400"
+              >
+                Join the newsletter
+              </button>
+              <p className="text-[11px] text-slate-500">
+                You can unsubscribe anytime. I&apos;ll only email when I have
+                something genuinely helpful to share.
+              </p>
+            </form>
+          </div>
+        </section>
+
         {/* Contact */}
         <section
           id="contact"
