@@ -246,6 +246,115 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Pricing & Plans */}
+        <section
+          id="pricing"
+          className="space-y-8 rounded-3xl border border-slate-800 bg-slate-950/70 px-6 py-10 md:px-10 md:py-12"
+        >
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-semibold">
+                Pricing &amp; Plans
+              </h2>
+              <p className="mt-2 text-sm md:text-base text-slate-300 max-w-2xl">
+                Choose a plan that matches where your business is today. You can
+                always upgrade later as your automation needs grow.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-3">
+            {/* Starter Website */}
+            <div className="flex flex-col justify-between rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
+              <div>
+                <h3 className="text-lg font-semibold text-slate-50">
+                  Starter Website
+                </h3>
+                <p className="mt-1 text-sm text-slate-300">
+                  A clean, fast website to get your business online quickly.
+                </p>
+                <p className="mt-4 text-2xl font-semibold text-slate-50">
+                  ₹9,999
+                </p>
+                <ul className="mt-4 space-y-1.5 text-sm text-slate-300">
+                  <li>• One-page or basic multi-page site</li>
+                  <li>• Mobile-friendly, modern design</li>
+                  <li>• Contact / enquiry form integration</li>
+                </ul>
+              </div>
+              <a
+                href="https://rzp.io/l/YOUR_LINK_1"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-gradient-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-transform transition-shadow hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
+              >
+                Get Starter Website
+              </a>
+            </div>
+
+            {/* Automation Setup (Most Popular) */}
+            <div className="relative flex flex-col justify-between rounded-2xl border border-emerald-400/80 bg-slate-900/80 p-6 shadow-lg shadow-emerald-500/40 md:scale-[1.03]">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-emerald-500 px-3 py-1 text-xs font-semibold text-slate-950 shadow-md shadow-emerald-500/60">
+                Most Popular
+              </div>
+              <div>
+                <h3 className="mt-2 text-lg font-semibold text-slate-50">
+                  Automation Setup
+                </h3>
+                <p className="mt-1 text-sm text-slate-300">
+                  End-to-end automations that capture leads and follow up for
+                  you.
+                </p>
+                <p className="mt-4 text-2xl font-semibold text-slate-50">
+                  ₹14,999
+                </p>
+                <ul className="mt-4 space-y-1.5 text-sm text-slate-300">
+                  <li>• Website → WhatsApp / email lead flows</li>
+                  <li>• AI chatbot for FAQs &amp; booking</li>
+                  <li>• Basic dashboards &amp; notifications</li>
+                </ul>
+              </div>
+              <a
+                href="https://rzp.io/l/YOUR_LINK_2"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-gradient-to-r from-emerald-400 via-emerald-500 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_30px_rgba(16,185,129,0.55)] transition-transform transition-shadow hover:scale-[1.04] hover:shadow-[0_0_40px_rgba(16,185,129,0.75)]"
+              >
+                Start Automation Setup
+              </a>
+            </div>
+
+            {/* Maintenance Plan */}
+            <div className="flex flex-col justify-between rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
+              <div>
+                <h3 className="text-lg font-semibold text-slate-50">
+                  Maintenance Plan
+                </h3>
+                <p className="mt-1 text-sm text-slate-300">
+                  Ongoing care so your website and automations stay fast and
+                  reliable.
+                </p>
+                <p className="mt-4 text-2xl font-semibold text-slate-50">
+                  ₹999<span className="text-sm text-slate-400">/month</span>
+                </p>
+                <ul className="mt-4 space-y-1.5 text-sm text-slate-300">
+                  <li>• Monthly updates &amp; security checks</li>
+                  <li>• Monitoring of key automations</li>
+                  <li>• Small tweaks and content changes</li>
+                </ul>
+              </div>
+              <a
+                href="https://rzp.io/l/YOUR_LINK_3"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-gradient-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-transform transition-shadow hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
+              >
+                Join Maintenance Plan
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* Newsletter */}
         <section
           id="newsletter"
