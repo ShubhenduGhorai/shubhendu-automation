@@ -346,7 +346,7 @@ export default function Home() {
                   reliable.
                 </p>
                 <p className="mt-4 text-2xl font-semibold text-slate-50">
-                  ₹999<span className="text-sm text-slate-400">/month</span>
+                  ₹499<span className="text-sm text-slate-400">/month</span>
                 </p>
                 <ul className="mt-4 space-y-1.5 text-sm text-slate-300">
                   <li>• Monthly updates &amp; security checks</li>
