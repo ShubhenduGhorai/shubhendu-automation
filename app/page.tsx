@@ -338,15 +338,25 @@ export default function Home() {
             {/* Maintenance Plan */}
             <div className="flex flex-col justify-between rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
               <div>
-                <h3 className="text-lg font-semibold text-slate-50">
-                  Maintenance Plan
-                </h3>
+                <div className="flex items-center gap-2">
+                  <h3 className="text-lg font-semibold text-slate-50">
+                    Maintenance Plan
+                  </h3>
+                  <span className="rounded-full bg-emerald-500/20 px-2 py-0.5 text-xs font-semibold text-emerald-300">
+                    20% off
+                  </span>
+                </div>
                 <p className="mt-1 text-sm text-slate-300">
                   Ongoing care so your website and automations stay fast and
                   reliable.
                 </p>
-                <p className="mt-4 text-2xl font-semibold text-slate-50">
-                  ₹499<span className="text-sm text-slate-400">/month</span>
+                <p className="mt-4 flex items-baseline gap-2">
+                  <span className="text-lg text-slate-500 line-through">
+                    ₹999/month
+                  </span>
+                  <span className="text-2xl font-semibold text-slate-50">
+                    ₹799<span className="text-sm text-slate-400">/month</span>
+                  </span>
                 </p>
                 <ul className="mt-4 space-y-1.5 text-sm text-slate-300">
                   <li>• Monthly updates &amp; security checks</li>
