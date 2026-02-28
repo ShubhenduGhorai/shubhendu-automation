@@ -294,7 +294,7 @@ export default function Home() {
               </div>
               <a
                 href="/pricing/starter-website"
-                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-linear-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-transform transition-shadow hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-linear-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-all hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
               >
                 Get Starter Website
               </a>
@@ -364,7 +364,7 @@ export default function Home() {
               </div>
               <a
                 href="/pricing/maintenance-plan"
-                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-linear-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-transform transition-shadow hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-linear-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-all hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
               >
                 Join Maintenance Plan
               </a>
