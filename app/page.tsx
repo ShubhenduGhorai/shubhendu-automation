@@ -293,10 +293,8 @@ export default function Home() {
                 </ul>
               </div>
               <a
-                href="https://rzp.io/l/YOUR_LINK_1"
-                target="_blank"
-                rel="noreferrer"
-                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-gradient-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-transform transition-shadow hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
+                href="/pricing/starter-website"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-linear-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-transform transition-shadow hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
               >
                 Get Starter Website
               </a>
@@ -328,7 +326,7 @@ export default function Home() {
                 </ul>
               </div>
               <a
-                href="#contact"
+                href="/pricing/automation-setup"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-xl border border-emerald-500/50 bg-slate-800/80 px-4 py-2.5 text-sm font-semibold text-emerald-300 hover:border-emerald-400/70 hover:bg-slate-800 hover:text-emerald-200 transition-colors"
               >
                 Get notified · Contact for early access
@@ -365,10 +363,8 @@ export default function Home() {
                 </ul>
               </div>
               <a
-                href="https://rzp.io/l/YOUR_LINK_3"
-                target="_blank"
-                rel="noreferrer"
-                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-gradient-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-transform transition-shadow hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
+                href="/pricing/maintenance-plan"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-linear-to-r from-emerald-400 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-transform transition-shadow hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(16,185,129,0.55)]"
               >
                 Join Maintenance Plan
               </a>
