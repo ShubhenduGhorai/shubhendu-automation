@@ -7,6 +7,19 @@ export const automationSetup: PricingPlan = {
   price: "Coming soon",
   priceNote: "Price not decided yet. Get in touch for early access.",
   comingSoon: true,
+  badge: "Most popular",
+  deliveryTime: "2–3 weeks (after scope lock)",
+  guarantee: "Clear scope doc before we start. No surprise charges.",
+  testimonial: {
+    quote: "Leads from my website now land in WhatsApp and get a first reply in minutes. Game changer.",
+    author: "Founder",
+    role: "Coaching business",
+  },
+  idealFor: [
+    "Businesses with steady enquiry flow",
+    "Teams drowning in follow-ups",
+    "Anyone using WhatsApp for business",
+  ],
   features: [
     "Website → WhatsApp or email lead flows so no lead is missed",
     "AI chatbot for FAQs, booking, and contact capture",

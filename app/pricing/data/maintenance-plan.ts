@@ -7,6 +7,19 @@ export const maintenancePlan: PricingPlan = {
   price: "₹799",
   priceNote: "per month · 20% off from ₹999/month",
   comingSoon: false,
+  badge: "20% off",
+  deliveryTime: "Ongoing · first report within 7 days",
+  guarantee: "Cancel anytime. No lock-in, no questions asked.",
+  testimonial: {
+    quote: "I don't think about updates or backups anymore. One less thing to worry about.",
+    author: "Agency owner",
+    role: "Multiple client sites",
+  },
+  idealFor: [
+    "Anyone with a site or automation already",
+    "Busy owners who want set-and-forget",
+    "Teams without a dedicated dev",
+  ],
   features: [
     "Monthly updates for core software and security patches",
     "Monitoring of key automations and uptime",

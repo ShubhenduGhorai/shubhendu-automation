@@ -7,6 +7,19 @@ export const starterWebsite: PricingPlan = {
   price: "₹4,999",
   priceNote: "One-time · 50% off from ₹9,999",
   comingSoon: false,
+  badge: "50% off",
+  deliveryTime: "5–7 working days",
+  guarantee: "2 weeks of free revisions after launch. Not happy? We fix it.",
+  testimonial: {
+    quote: "Got my site live in under a week. Clean, fast, and I get leads on the form every week.",
+    author: "Small business owner",
+    role: "Local services",
+  },
+  idealFor: [
+    "Freelancers & solo consultants",
+    "Local shops & services",
+    "Startups validating an idea",
+  ],
   features: [
     "One-page or basic multi-page site tailored to your business",
     "Fully responsive, mobile-first design",
