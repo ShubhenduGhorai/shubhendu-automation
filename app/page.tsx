@@ -267,14 +267,24 @@ export default function Home() {
             {/* Starter Website */}
             <div className="flex flex-col justify-between rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
               <div>
-                <h3 className="text-lg font-semibold text-slate-50">
-                  Starter Website
-                </h3>
+                <div className="flex items-center gap-2">
+                  <h3 className="text-lg font-semibold text-slate-50">
+                    Starter Website
+                  </h3>
+                  <span className="rounded-full bg-emerald-500/20 px-2 py-0.5 text-xs font-semibold text-emerald-300">
+                    50% off
+                  </span>
+                </div>
                 <p className="mt-1 text-sm text-slate-300">
                   A clean, fast website to get your business online quickly.
                 </p>
-                <p className="mt-4 text-2xl font-semibold text-slate-50">
-                  ₹9,999
+                <p className="mt-4 flex items-baseline gap-2">
+                  <span className="text-lg text-slate-500 line-through">
+                    ₹9,999
+                  </span>
+                  <span className="text-2xl font-semibold text-slate-50">
+                    ₹4,999
+                  </span>
                 </p>
                 <ul className="mt-4 space-y-1.5 text-sm text-slate-300">
                   <li>• One-page or basic multi-page site</li>
@@ -305,8 +315,11 @@ export default function Home() {
                   End-to-end automations that capture leads and follow up for
                   you.
                 </p>
-                <p className="mt-4 text-2xl font-semibold text-slate-50">
-                  ₹14,999
+                <p className="mt-4 text-lg font-semibold text-slate-400">
+                  Coming soon
+                </p>
+                <p className="mt-1 text-xs text-slate-500">
+                  Price not decided yet. Get in touch for early access.
                 </p>
                 <ul className="mt-4 space-y-1.5 text-sm text-slate-300">
                   <li>• Website → WhatsApp / email lead flows</li>
@@ -315,12 +328,10 @@ export default function Home() {
                 </ul>
               </div>
               <a
-                href="https://rzp.io/l/YOUR_LINK_2"
-                target="_blank"
-                rel="noreferrer"
-                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-gradient-to-r from-emerald-400 via-emerald-500 to-emerald-600 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-[0_0_30px_rgba(16,185,129,0.55)] transition-transform transition-shadow hover:scale-[1.04] hover:shadow-[0_0_40px_rgba(16,185,129,0.75)]"
+                href="#contact"
+                className="mt-6 inline-flex w-full items-center justify-center rounded-xl border border-emerald-500/50 bg-slate-800/80 px-4 py-2.5 text-sm font-semibold text-emerald-300 hover:border-emerald-400/70 hover:bg-slate-800 hover:text-emerald-200 transition-colors"
               >
-                Start Automation Setup
+                Get notified · Contact for early access
               </a>
             </div>
 
