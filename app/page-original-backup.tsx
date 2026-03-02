@@ -6,11 +6,11 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-emerald-500 text-slate-950 font-semibold text-lg">
-              SA
+              SH
             </span>
             <div>
               <p className="text-sm font-semibold tracking-wide">
-                Shubhendu Automation
+                ScaleHarbor
               </p>
               <p className="text-xs text-slate-400">
                 Websites • AI • Workflows
