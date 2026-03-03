@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   robots: { index: true, follow: true },
+
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -29,17 +31,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   };
 
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen bg-[#05060b] text-white antialiased">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <div className="pointer-events-none fixed inset-0 -z-10 bg-[radial-gradient(circle_at_20%_10%,rgba(99,102,241,0.28),transparent_35%),radial-gradient(circle_at_80%_30%,rgba(56,189,248,0.2),transparent_30%)]" />
-          <SiteHeader />
-          {children}
-          <SiteFooter />
-          <StickyCTA />
-          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-        </ThemeProvider>
-      </body>
-    </html>
-  );
+return (
+  <html lang="en" suppressHydrationWarning>
+    <body className="min-h-screen bg-[#05060b] text-white antialiased">
+      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <div className="pointer-events-none fixed inset-0 -z-10 bg-[radial-gradient(circle_at_20%_10%,rgba(99,102,241,0.2),transparent_35%)]" />
+        <SiteHeader />
+        {children}
+        <SiteFooter />
+        <StickyCTA />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      </ThemeProvider>
+    </body>
+  </html>
+);
 }
