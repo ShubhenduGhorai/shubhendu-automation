@@ -1,16 +1,22 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import type { User } from "@supabase/supabase-js";
+import { getSupabaseEnv } from "@/lib/supabase/env";
 
 export async function updateSession(request: NextRequest): Promise<{
   response: NextResponse;
   user: User | null;
 }> {
   const response = NextResponse.next({ request });
+  const { url, key } = getSupabaseEnv();
+
+  if (!url || !key) {
+    return { response, user: null };
+  }
 
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL || "https://hrspgmghsnidesstvrbg.supabase.co",
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "sb_publishable_uEupFNH1uNKCC8W_Mas8rA_o-kX1J-l",
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
       cookies: {
         getAll() {
@@ -25,6 +31,9 @@ export async function updateSession(request: NextRequest): Promise<{
     }
   );
 
-  const { data: { user } } = await supabase.auth.getUser();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
   return { response, user };
 }
