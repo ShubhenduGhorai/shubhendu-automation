@@ -30,7 +30,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     slogan: "Automation. AI. Growth Infrastructure.",
   };
 
-  return (
+  
 return (
   <html lang="en" suppressHydrationWarning>
     <body className="min-h-screen bg-[#05060b] text-white antialiased">
