@@ -13,11 +13,11 @@ export function AboutSection({ data }: Props) {
         <div className="mt-8 grid gap-10 md:grid-cols-2 md:items-start">
           <p className="text-neutral-600 leading-relaxed whitespace-pre-line">{content}</p>
           {imageUrl ? (
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-neutral-100">
+            <div className="relative aspect-4/3 overflow-hidden rounded-2xl bg-neutral-100">
               <Image src={imageUrl} alt="About" fill className="object-cover" sizes="50vw" unoptimized />
             </div>
           ) : (
-            <div className="aspect-[4/3] rounded-2xl bg-neutral-100 flex items-center justify-center text-neutral-400 text-sm">About image</div>
+            <div className="aspect-4/3 rounded-2xl bg-neutral-100 flex items-center justify-center text-neutral-400 text-sm">About image</div>
           )}
         </div>
       </div>
