@@ -32,7 +32,7 @@ export function PricingClient() {
 
       <Card className="mt-10 overflow-auto p-6">
         <h2 className="text-xl text-white">Comparison</h2>
-        <table className="mt-4 w-full min-w-[500px] text-left text-sm text-white/80">
+        <table className="mt-4 w-full min-w-125 text-left text-sm text-white/80">
           <thead><tr><th>Feature</th><th>Starter</th><th>Growth</th><th>Scale</th></tr></thead>
           <tbody>
             <tr><td>Automation</td><td>Basic</td><td>Advanced</td><td>Enterprise</td></tr>
